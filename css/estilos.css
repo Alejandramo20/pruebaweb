@@ -1,0 +1,33 @@
+html,body{
+	height:100%;
+}
+body{
+	background:darkblue;
+}
+h1{
+	color:red;
+	font-family: 'Muli', sans-serif;
+	letter-spacing:0.1em;
+	text-align:center;
+	text-shadow:0 0 0.5em red;
+}	
+.galeria{
+	/*border:solid;*/
+	display:flex;
+	justify-content:space-around;
+	margin:0 auto;
+	width:80%;
+}
+.galeria div{
+	filter: grayscale(1);
+}
+.galeria img{
+	width:200px;
+	height:200px;
+}
+.galeria div:hover{
+	filter: grayscale(0);
+}
+
+
+
